@@ -7,6 +7,7 @@
 header{
   height: 50px;
   background-color: #FF9A4B;
+  width: 100%;
 }
 
 main{
@@ -60,4 +61,32 @@ main{
 footer{
   height: 50px;
   background-color:#AAAAAA;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  
+  header{
+    width: 100%
+  }
+  
+  main{
+    width: 100%;
+    display: block;
+  }
+  
+  .box{
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .box:last-child{
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+  
+  footer{
+    width: 100%;
+  }
+  
 }
